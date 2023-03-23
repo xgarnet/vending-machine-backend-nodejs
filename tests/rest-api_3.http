@@ -1,0 +1,27 @@
+POST http://localhost:8080/product
+Content-Type: application/json
+
+{
+  "id": 3,
+  "amountAvailable": 0,
+  "const": 12,
+  "productName": 5,
+  "sellerId": 1
+}
+
+<> 2023-03-22T182507.200.json
+<> 2023-03-22T182504.200.json
+<> 2023-03-22T182418.200.json
+
+###
+
+POST http://localhost:8080/user
+Content-Type: application/json
+
+{
+  "id": 3,
+  "username": "user2",
+  "password": "password2",
+  "deposit": 12,
+  "role": "buyer"
+}
